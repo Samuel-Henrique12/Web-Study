@@ -1,4 +1,28 @@
+@charset "UTF-8";
+
+body {
+    background-color: black;
+    color: white;
+    font-family: "Source Code Pro", monospace;
+    margin: 0;
+    padding: 20px;
+}
 h1 {
     color: darkorange;
+    text-align: center;
     font-family: "Source Code Pro", monospace;
+}
+
+hr {
+    border: 0;
+    height: 2px;
+    background: linear-gradient(to right, #FF0000, #FF00FF);
+    margin: 20px 0;
+}
+
+p {
+    text-align: justify;
+    background-image: linear-gradient(to right, #FF0000, #FF00FF);
+    -webkit-background-clip: text;
+    color: transparent;
 }
